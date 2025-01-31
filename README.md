@@ -35,7 +35,7 @@ This is a simple quiz app built with React.
 ![image](https://github.com/user-attachments/assets/5aa0258b-3337-4a4d-aeb5-5e9ed7d705fb)
 
 **8 Video**
-[!Demo](https://youtube.com/shorts/XCeom174Z7E)
+[Demo][!youtube video](https://youtube.com/shorts/XCeom174Z7E)
 
 
 
