@@ -1,0 +1,147 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .quiz-container {
+   width: 640px;
+   margin: auto;
+   margin-top: 90px;
+   background: white;
+   color: #262626;
+   display: flex;
+   flex-direction: column;
+   
+   border-radius: 10px;
+   padding: 40px 50px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  h4 {
+    font-size: 18px;
+    color: #e3e3e3;
+  }
+  
+  hr {
+    border: 1px solid #ffffff33;
+    margin: 20px 0;
+  }
+  
+  .index {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .questiom{
+    margin-bottom: -10px;
+  }
+  .question-description {
+    font-size: 18px;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .options button {
+    /* background: linear-gradient(135deg, #ff7eb3, #ff758c); */
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 5px 15px rgba(255, 117, 140, 0.3);
+    margin-top: 10px;
+}
+
+.options button:hover {
+    /* background: linear-gradient(135deg, #ff4e75, #ff375a); */
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(255, 117, 140, 0.5);
+}
+
+.options button:active {
+    transform: scale(0.98);
+}
+
+  
+  .quiz-summary {
+    background: #fff;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .quiz-summary h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  
+  .quiz-summary p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+   button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background: #218838;
+    transform: translateY(-3px);
+  }
+  
+  button:active {
+    transform: translateY(1px);
+  }
+  
+  .loading, .error {
+    font-size: 20px;
+    color: #ff4747;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
